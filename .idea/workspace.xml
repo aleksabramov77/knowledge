@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b863ca53-53e6-4539-94d3-4e8dd12c8ea4" name="Changes" comment="Initialize Next.js project with Tailwind CSS integration, including type-level TypeScript structure." />
+    <list default="true" id="b863ca53-53e6-4539-94d3-4e8dd12c8ea4" name="Changes" comment="wip">
+      <change beforePath="$PROJECT_DIR$/src/app/type-level-typescript/test/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/type-level-typescript/test/page.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +50,7 @@
     "npm.dev.executor": "Run",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
     "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/aleksandr/Projects/my/type-level-typescript/node_modules/typescript/lib"
+    "ts.external.directory.path": "/Users/aleksandr/Projects/my/knowledge/node_modules/typescript/lib"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -98,7 +100,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755436485799</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wip">
+      <option name="closed" value="true" />
+      <created>1755466589205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755466589205</updated>
+    </task>
+    <task id="LOCAL-00003" summary="wip">
+      <option name="closed" value="true" />
+      <created>1755466638687</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755466638687</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialize Next.js project with Tailwind CSS integration, including type-level TypeScript structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize Next.js project with Tailwind CSS integration, including type-level TypeScript structure." />
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
 </project>

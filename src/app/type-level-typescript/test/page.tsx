@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import aIsAssignableToB from '../../../../public/images/type-level-typescript/conditional-types/a-is-assignable-to-b.74cf1682.svg';
-
 export default function Page() {
   return (
     <div>

@@ -1,4 +1,4 @@
-import { Equal, Expect } from '../common';
+import { Equal, Expect } from '../../common';
 
 /**
  * `safeHead` takes an array, a default value

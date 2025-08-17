@@ -1,4 +1,4 @@
-import { Equal, Expect } from '../common';
+import { Equal, Expect } from '../../common';
 
 /**
  * The `identity` function takes a value of any type

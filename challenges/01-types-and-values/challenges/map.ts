@@ -1,4 +1,4 @@
-import { Equal, Expect } from '../common';
+import { Equal, Expect } from '../../common';
 
 /**
  * `map` transforms all values in an array to a value of

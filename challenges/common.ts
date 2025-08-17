@@ -1,4 +1,16 @@
-type Compute<T> = T extends object ? { [K in keyof T]: T[K] } : T;
+/**
+ * Compute forces TypeScript to evaluate a type.
+ */
+export type Compute<T> = T extends
+  | Function
+  | RegExp
+  | Date
+  | Generator<unknown, any, unknown>
+  | {
+      readonly [Symbol.toStringTag]: string;
+    }
+  ? T
+  : { [K in keyof T]: Compute<T[K]> };
 
 /**
  * Equal takes 2 types and returns true if they are the same.

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import aIsAssignableToB from '../../../../public/images/type-level-typescript/conditional-types/a-is-assignable-to-b.74cf1682.svg';
+
 export default function Page() {
   return (
     <div className="">
@@ -23,7 +24,7 @@ export default function Page() {
         how important and widespread they are in programming.
       </p>
 
-      <pre className={'mt-4 p-'}>
+      <pre className={'mt-4 p-4'}>
         <code>{`if (trafficLight === "green") go();
 else stop();`}</code>
       </pre>

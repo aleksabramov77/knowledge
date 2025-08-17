@@ -1,6 +1,10 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
+  --color-bg: #091225;
+  /*--color-inline-code-bg: rgba(125, 156, 242, .2);*/
+  /*--color-inline-code-bg: rgb(128, 135, 156);*/
+
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -20,7 +24,13 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--color-bg);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+pre,
+code {
+  background-color: #1f6382;
+  border-radius: 2px;
 }

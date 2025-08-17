@@ -26,12 +26,7 @@ const eslintConfig = [
   },
 
   // Подключаем eslint-config-prettier (отключает правила ESLint, конфликтующие с Prettier)
-  {
-    name: 'prettier-config',
-    rules: {
-      ...require('eslint-config-prettier'),
-    },
-  },
+  ...compat.extends('prettier'),
 ];
 
 export default eslintConfig;
